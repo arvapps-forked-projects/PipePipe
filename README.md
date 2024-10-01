@@ -1,19 +1,13 @@
-The project is hosted on both [CodeBerg](https://codeberg.org/NullPointerException/PipePipe) and [GitHub](https://github.com/InfinityLoop1308/PipePipe). Check both before you open an issue.
-
-If you're enjoying PipePipe, please help share it with your friends. Every bit of support means a lot to us!
-
 <hr>
 <p align="center"><img src="https://i.imgur.com/Q7R0xTU.png" width="150"></p> 
 <h2 align="center"><b>PipePipe</b></h2>
 <h4 align="center">
 A FLOSS Android app to let you browse YouTube, NicoNico and BiliBili without accounts. </h4>
-<h4 align="center">
-NewPipe, but better - browse the most popular streaming platforms throughout the world.</h4>
 <p align="center"><a href="https://f-droid.org/packages/InfinityLoop1309.NewPipeEnhanced/"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height=80/></a>
 <a href="https://apt.izzysoft.de/fdroid/index/apk/InfinityLoop1309.NewPipeEnhanced"><img src="assets/IzzyOnDroid.png" alt="Get it on IzzyOnDroid" height=80/></a></p>
 <hr>
 
-## Features:
+## Features
 
 ### Original
 
@@ -24,13 +18,16 @@ NewPipe, but better - browse the most popular streaming platforms throughout the
 
 ### Beyond NewPipe
 
+* New Services (BiliBili / NicoNico)
 * SponsorBlock & ReturnYouTubeDislike
+* Sign in to watch restricted contents
 * Bullet comments / Live Chats
 * Search filters
 * Filter & sort local playlists
 * Music player mode & Background playing
 * Timestamp support
 * Sleep timer
+* Fullscreen gestures
 * ... and many minor improvements
 
 ## Screenshots
@@ -52,17 +49,27 @@ NewPipe, but better - browse the most popular streaming platforms throughout the
 [<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/11-v2.png" width=160>](fastlane/metadata/android/en-US/images/phoneScreenshots/11-v2.png)
 [<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/12-v2.png" width=160>](fastlane/metadata/android/en-US/images/phoneScreenshots/12-v1.png)
 
+
+## About this fork
+
+Due to differences in development philosophy, I forked NewPipe in early 2022 and began independent development based on it.
+
+This means that PipePipe neither receives updates from NewPipe nor pushes updates to NewPipe. They have become two separate projects. Issues that occur in NewPipe don't necessarily happen in PipePipe, and changes made in NewPipe may not be adopted by PipePipe. In contrast, forks like Tubular track the latest version of NewPipe and develop based on it.
+
+Making a hard fork allows us to effectively address issues with quick fixes and maintain frequent feature updates.
+
+
+
 ## Contribute
 
-Issues and PRs are welcomed. Please note that I will **NOT** accept service requests due to my limited time. 
+Issues and PRs are welcomed. Please note that I will **NOT** accept service requests. 
 
 Anyone interested in creating their own service is encouraged to fork this repository.
 
-PipePipe is a HARD fork of NewPipe and the codebase is very different from NewPipe. 
 
 ## Donation
 
-PipePipe is free and open source software. It is developed in my spare time. If you like it, please consider donating to support the development. With sufficient donations, I can dedicate more time to developing the project:)
+If you find PipePipe useful, please consider becoming a supporter on Ko-Fi. Your support is important to me and helps me add more exciting new features. Every bit counts! 😇
 
 Liberapay: https://liberapay.com/PipePipe
 
