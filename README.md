@@ -28,6 +28,7 @@ A FLOSS Android app to let you browse YouTube, NicoNico and BiliBili without acc
 * Timestamp support
 * Sleep timer
 * Fullscreen gestures
+* Auto-translation captions
 * ... and many minor improvements
 
 ## Screenshots
@@ -58,7 +59,11 @@ This means that PipePipe neither receives updates from NewPipe nor pushes update
 
 Making a hard fork allows us to effectively address issues with quick fixes and maintain frequent feature updates.
 
+## About sign in
 
+PipePipe will ONLY use the login cookie for the specified scenarios you set. You can configure it in "Cookie Functions."
+
+For YouTube, the cookie will only be used when retrieving playback streams.
 
 ## Contribute
 
